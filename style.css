@@ -1,0 +1,92 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.image2 {
+    display: none;
+}
+.image1 {
+    height: 380px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text {
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 380px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:  24px;
+   
+
+}
+
+.container button {
+    background-color: hsl(158, 36%, 37%);
+}
+
+.top {
+    font-family: Montserrat; 
+    font-size: 0.8rem; 
+    letter-spacing: 5px;
+}
+
+.name {
+    font-family: fraunces;
+    font-size: 1.8rem; 
+    line-height: 1.8rem; 
+    font-weight: 700;
+}
+
+.body {
+    font-family: Montserrat; 
+    font-size: 0.8rem;
+}
+
+.button {
+    font-family: Montserrat; 
+    font-size: 0.8rem; 
+    font-weight: 400; 
+    color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+       
+
+    } 
+
+    .image1 {
+        display: none;
+    }
+
+    .image2 {
+        display: flex;
+        width: 320px;
+        height: 200px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        
+    }
+
+    .text {
+        width: 320px;
+        height: 350px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+       
+    }
+}
+
